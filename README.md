@@ -19,7 +19,7 @@ install tesseract by Google and copy Tesseract-OCR directory to directory where 
 
 ### Usage
 
-Use Windows + Shift + S to copy outside edge of sudoku puzzle.
+Use Windows + Shift + S to copy outside edges of sudoku puzzle.
 
 activate virtual environment
 
