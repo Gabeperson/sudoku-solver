@@ -6,6 +6,7 @@ Currently only supports windows
 (no comments cause nobody's gonna read this code anyway)
 
 ### Installation:
+------
 
 clone repository
 
@@ -18,6 +19,7 @@ install requirements.txt using pip
 install tesseract by Google and copy Tesseract-OCR directory to directory where main.py is located (spelling and case-sensitive for Tesseract-OCR directory)
 
 ### Usage
+------
 
 Use Windows + Shift + S to copy outside edges of sudoku puzzle.
 
