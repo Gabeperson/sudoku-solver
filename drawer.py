@@ -1,5 +1,6 @@
 import numpy as np
 import cv2
+import matplotlib.pyplot as plt
 
 
 def draw(grid):
@@ -51,5 +52,6 @@ def draw(grid):
 
             cv2.putText(sudoku_img, text, text_origin, text_font, text_scale, (5,), text_weight, cv2.LINE_AA)
 
-    cv2.imshow("Sudoku Img", sudoku_img)
+    sudoku_img = cv2.resize(sudoku_img, (0,0), fx=0.5, fy=0.5)
+    cv2.imshow("Sudoku Img (Close before proceeding)", sudoku_img)
     cv2.waitKey(0)

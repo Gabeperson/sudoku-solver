@@ -1,4 +1,4 @@
-import numpy as np
+import drawer
 
 
 
@@ -28,5 +28,5 @@ def solve(grid):
                         solve(grid)
                         grid[y][x] = 0
                 return
-    print(np.matrix(grid))
+    drawer.draw(grid)
     input("More?")
