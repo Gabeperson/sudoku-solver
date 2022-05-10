@@ -1,5 +1,4 @@
 # Sudoku-Solver
-------
 
 Sudoku solver with image detection, meant for windows. Uses pytesseract and sudoku solving code from Computerphile.
 Personal project done in one afternoon when I got a stroke of inspiration. Code is messy. Expect little if any updates.
